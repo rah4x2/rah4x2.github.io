@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Yasirah Mohamed Ilyas — Chemical Engineering graduate portfolio focused on process engineering, energy and sustainability.">
+  <title>Yasirah Mohamed Ilyas | Chemical Engineering Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" data-header>
+    <a class="brand" href="#top" aria-label="Yasirah Mohamed Ilyas home">
+      <span class="brand-mark">YMI.</span>
+      <span class="brand-role">CHEMICAL ENGINEER</span>
+    </a>
+    <nav class="desktop-nav" aria-label="Primary navigation">
+      <a href="#work">Work</a>
+      <a href="#experience">Experience</a>
+      <a href="#leadership">Leadership</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <a class="button button-ghost button-small" href="assets/cv.pdf" target="_blank" rel="noopener">View CV <span aria-hidden="true">↗</span></a>
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" data-menu-toggle>
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="mobile-menu" data-mobile-menu hidden>
+    <a href="#work">Work</a>
+    <a href="#experience">Experience</a>
+    <a href="#leadership">Leadership</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+    <a href="assets/cv.pdf" target="_blank" rel="noopener">View CV ↗</a>
+  </div>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="hero-blueprint" aria-hidden="true"></div>
+      <div class="hero-copy reveal">
+        <p class="kicker"><span>PROCESS</span> · ENERGY · SUSTAINABILITY</p>
+        <h1>I think in <em>flows, balances</em> & better processes.</h1>
+        <p class="hero-intro">Chemical Engineering graduate interested in how industrial systems work, how they can be improved, and how engineering can support safer and more sustainable operations.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#work">Explore my work <span aria-hidden="true">→</span></a>
+          <a class="button button-ghost" href="assets/cv.pdf" target="_blank" rel="noopener">View CV <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="hero-meta" aria-label="Quick information">
+          <span>Abu Dhabi, UAE</span>
+          <a href="https://www.linkedin.com/in/yasirah-ilyas" target="_blank" rel="noopener">LinkedIn ↗</a>
+          <a href="mailto:mi.yasirah@hotmail.com">Email ↗</a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal reveal-delay-1">
+        <div class="visual-label">FEATURED SYSTEM / LITHIUM RECOVERY</div>
+        <div class="process-stage" data-process-stage aria-label="Interactive 3D-style lithium recovery process flow">
+          <div class="process-stage-grid" aria-hidden="true"></div>
+          <svg class="process-pipes" viewBox="0 0 900 560" preserveAspectRatio="none" aria-hidden="true">
+            <path class="pipe pipe-base" d="M110 360 C190 360 205 280 270 280 S360 350 425 350 S500 230 560 230 S645 335 700 335 S770 260 825 260" />
+            <path class="pipe pipe-flow" d="M110 360 C190 360 205 280 270 280 S360 350 425 350 S500 230 560 230 S645 335 700 335 S770 260 825 260" />
+          </svg>
+
+          <button class="process-unit unit-feed" type="button" data-stage="Black mass feed" data-detail="100 kg/h NMC black mass · 4.1% Li">
+            <span class="unit-3d hopper"><i></i></span>
+            <span class="unit-copy"><b>01</b><strong>Black mass</strong><small>Feed</small></span>
+          </button>
+          <button class="process-unit unit-leach" type="button" data-stage="Leaching & pretreatment" data-detail="Dissolution and impurity control before recovery">
+            <span class="unit-3d tank"><i></i></span>
+            <span class="unit-copy"><b>02</b><strong>Pretreatment</strong><small>Leaching</small></span>
+          </button>
+          <button class="process-unit unit-cdi" type="button" data-stage="Capacitive deionization" data-detail="Selective ion adsorption using CDI electrodes">
+            <span class="unit-3d rack"><i></i><i></i><i></i></span>
+            <span class="unit-copy"><b>03</b><strong>CDI</strong><small>Ion recovery</small></span>
+          </button>
+          <button class="process-unit unit-fo" type="button" data-stage="Forward osmosis" data-detail="Membrane-based concentration and draw-solution recovery">
+            <span class="unit-3d membrane"><i></i><i></i></span>
+            <span class="unit-copy"><b>04</b><strong>FO</strong><small>Concentration</small></span>
+          </button>
+          <button class="process-unit unit-crystal" type="button" data-stage="Post-treatment" data-detail="Crystallization to form lithium carbonate product">
+            <span class="unit-3d column"><i></i></span>
+            <span class="unit-copy"><b>05</b><strong>Crystallize</strong><small>Li₂CO₃</small></span>
+          </button>
+          <button class="process-unit unit-dry" type="button" data-stage="Filtration & drying" data-detail="Final solids handling to meet product specification">
+            <span class="unit-3d dryer"><i></i></span>
+            <span class="unit-copy"><b>06</b><strong>Finish</strong><small>Filter + dry</small></span>
+          </button>
+
+          <div class="process-callout" data-process-callout>
+            <span class="callout-code">PROCESS_01</span>
+            <strong>Hover or tap a unit</strong>
+            <small>Explore the recovery train</small>
+          </div>
+          <div class="process-axis" aria-hidden="true">BLACK MASS <span>→</span> LITHIUM CARBONATE</div>
+        </div>
+        <div class="visual-foot">
+          <span>CSS 3D / PROCESS ARCHITECTURE</span>
+          <span class="drag-hint">Move pointer to tilt</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="quick-strip" aria-label="Recruiter snapshot">
+      <div><strong>1st</strong><span>Senior Design Project<br>Competition · 2026</span></div>
+      <div><strong>16 wk</strong><span>Borouge Innovation Centre<br>Industrial internship</span></div>
+      <div><strong>100 kg/h</strong><span>SDP design basis<br>NMC black mass feed</span></div>
+      <div><strong>99.5%</strong><span>Lithium carbonate<br>product purity</span></div>
+    </section>
+
+    <section class="section featured-project" id="work">
+      <div class="section-heading reveal">
+        <div>
+          <p class="section-code">01 / FLAGSHIP PROJECT</p>
+          <h2>From waste battery black mass to lithium carbonate.</h2>
+        </div>
+        <p>This is the project that best shows how I approach an engineering problem: define the process, compare technologies, close the balances, challenge the safety, test the economics, and refine the design.</p>
+      </div>
+
+      <article class="feature-card reveal">
+        <div class="feature-card-copy">
+          <div class="feature-topline">
+            <span class="badge badge-gold"> Awarded 1st Place · 2026</span>
+            <span class="mono-note">KHALIFA UNIVERSITY / SENIOR DESIGN</span>
+          </div>
+          <h3>Lithium Recovery from Waste Batteries</h3>
+          <p class="feature-lead">Integrated process design using emerging recovery technologies, including capacitive deionization and forward osmosis, with process safety, economics and scale-up considerations.</p>
+          <div class="tag-list">
+            <span>Process Design</span><span>PFD</span><span>CDI</span><span>Forward Osmosis</span><span>HAZOP</span><span>TEA</span><span>Plant Layout</span>
+          </div>
+          <div class="feature-actions">
+            <a class="text-link" href="projects/lithium-recovery.html">View the case study <span>→</span></a>
+            <a class="text-link subdued" href="assets/documents/lithium-recovery-poster.pdf" target="_blank" rel="noopener">View project poster ↗</a>
+          </div>
+        </div>
+        <div class="feature-data" aria-label="Lithium project key data">
+          <div class="metric"><span>INPUT</span><strong>100 kg/h</strong><small>NMC black mass · 4.1% Li</small></div>
+          <div class="metric"><span>OUTPUT</span><strong>18.41 kg/h</strong><small>Li₂CO₃ product</small></div>
+          <div class="metric"><span>PURITY</span><strong>99.5%</strong><small>Product specification</small></div>
+          <div class="metric"><span>NPV</span><strong>AED 38.58M</strong><small>Project analysis result</small></div>
+        </div>
+      </article>
+    </section>
+
+    <section class="section coursework-section">
+      <div class="section-heading compact reveal">
+        <div>
+          <p class="section-code">02 / COURSEWORK SNAPSHOTS</p>
+          <h2>Breadth of exposure, not inflated case studies.</h2>
+        </div>
+        <p>Short group projects completed across my Chemical Engineering degree. They gave me working familiarity with different technologies, systems and sustainability questions.</p>
+      </div>
+
+      <div class="coursework-grid">
+        <article class="course-card reveal">
+          <div class="course-image"><img src="assets/images/projects/carbon-process.jpg" alt="Carbon capture process diagram from coursework" loading="lazy"></div>
+          <div class="course-index">01</div>
+          <h3>Carbon Capture in Steel Production</h3>
+          <p>Explored EMSTEEL / Al Reyadah, CCUS process logic, emissions reduction and industrial decarbonisation.</p>
+          <div class="mini-tags"><span>CCUS</span><span>Steel</span><span>Decarbonisation</span></div>
+        </article>
+        <article class="course-card reveal">
+          <div class="course-image"><img src="assets/images/projects/wind-design.jpg" alt="Small wind turbine design coursework visual" loading="lazy"></div>
+          <div class="course-index">02</div>
+          <h3>Small Wind Turbine + Battery</h3>
+          <p>Evaluated residential demand, UAE wind resource, turbine sizing, storage and technical feasibility.</p>
+          <div class="mini-tags"><span>Wind</span><span>Storage</span><span>System Design</span></div>
+        </article>
+        <article class="course-card reveal">
+          <div class="course-image"><img src="assets/images/projects/road-scenarios.jpg" alt="Road transport decarbonisation scenario comparison" loading="lazy"></div>
+          <div class="course-index">03</div>
+          <h3>Road Transport Decarbonisation</h3>
+          <p>Compared UAE pathways involving EVs, hydrogen, biofuels, public transport and policy measures.</p>
+          <div class="mini-tags"><span>EV</span><span>Hydrogen</span><span>Policy</span></div>
+        </article>
+        <article class="course-card reveal">
+          <div class="course-image"><img src="assets/images/projects/ethanol-process.jpg" alt="Cellulosic ethanol process coursework visual" loading="lazy"></div>
+          <div class="course-index">04</div>
+          <h3>Cellulosic Ethanol from Corn Stover</h3>
+          <p>Reviewed pretreatment, saccharification, fermentation, separation and energy recovery in a biorefinery.</p>
+          <div class="mini-tags"><span>Biofuel</span><span>Biomass</span><span>Fermentation</span></div>
+        </article>
+        <article class="course-card reveal course-card-text">
+          <div class="course-symbol" aria-hidden="true">↯</div>
+          <div class="course-index">05</div>
+          <h3>Electrochemical Gas Sensors</h3>
+          <p>Studied sensing fundamentals, electrode reactions, gas detection, safety applications and limitations.</p>
+          <div class="mini-tags"><span>Electrochemistry</span><span>Sensing</span><span>Safety</span></div>
+        </article>
+        <article class="course-card reveal course-card-text">
+          <div class="course-symbol" aria-hidden="true">≋</div>
+          <div class="course-index">06</div>
+          <h3>Membrane Bioreactors</h3>
+          <p>Explored biological treatment combined with membrane separation for wastewater applications.</p>
+          <div class="mini-tags"><span>Membranes</span><span>Wastewater</span><span>Separation</span></div>
+        </article>
+        <article class="course-card reveal">
+          <div class="course-image"><img src="assets/images/projects/energy-access-policy.jpg" alt="Energy access comparison coursework visual" loading="lazy"></div>
+          <div class="course-index">07</div>
+          <h3>Energy Access: Saudi Arabia vs South Korea</h3>
+          <p>Compared electrification, energy security, infrastructure, renewable development and policy approaches.</p>
+          <div class="mini-tags"><span>Energy Systems</span><span>Policy</span><span>Security</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section experience-section" id="experience">
+      <div class="section-heading reveal">
+        <div>
+          <p class="section-code">03 / INDUSTRIAL EXPERIENCE</p>
+          <h2>Learning how engineering looks beyond the classroom.</h2>
+        </div>
+        <p>My Borouge internship is presented as what it is: structured industrial exposure and learning — not exaggerated hands-on R&D ownership.</p>
+      </div>
+
+      <article class="experience-panel reveal">
+        <div class="experience-title">
+          <span class="mono-note">BOROUGE INNOVATION CENTRE · ABU DHABI</span>
+          <h3>Engineering Intern</h3>
+          <p>June 2026 — Present</p>
+        </div>
+        <div class="experience-columns">
+          <div><span>TECHNICAL EXPOSURE</span><p>Polymer characterisation · rheology · thermal analysis · microscopy · density measurement</p></div>
+          <div><span>INDUSTRIAL SYSTEMS</span><p>Procurement · material management · inventory · warehouse logistics · SAP-based tracking</p></div>
+          <div><span>SAFETY + QUALITY</span><p>HSE practices · laboratory quality systems · emergency response · HVAC/chiller/fire safety systems</p></div>
+          <div><span>INNOVATION CONTEXT</span><p>Product development workflows · intellectual property · patents · supporting functions around R&D</p></div>
+        </div>
+      </article>
+    </section>
+
+    <section class="section split-section" id="leadership">
+      <div class="leadership-card reveal">
+        <p class="section-code">04 / LEADERSHIP</p>
+        <h2>Engineering is technical. Getting people moving is another skill.</h2>
+        <div class="leadership-role">
+          <div><span>KU CAR CLUB</span><strong>Events Chair</strong><small>2025 — 2026</small></div>
+          <p>Coordinating events strengthened my communication, teamwork, logistics and leadership — especially when working across board members, departments, media teams, volunteers and other student organisations.</p>
+        </div>
+        <div class="leadership-stats">
+          <div><strong>5+</strong><span>events coordinated</span></div>
+          <div><strong>50+</strong><span>attendees at events</span></div>
+          <div><strong>∞</strong><span>moving parts to align</span></div>
+        </div>
+      </div>
+
+      <div class="toolkit-card reveal reveal-delay-1">
+        <p class="section-code">05 / TECHNICAL TOOLKIT</p>
+        <h2>Tools I can bring into the room.</h2>
+        <div class="tool-grid">
+          <div><strong>Aspen HYSYS</strong><span>Process simulation</span></div>
+          <div><strong>MATLAB</strong><span>Engineering analysis</span></div>
+          <div><strong>Python</strong><span>Data + calculations</span></div>
+          <div><strong>Excel</strong><span>Analysis + models</span></div>
+          <div><strong>PFD</strong><span>Process architecture</span></div>
+          <div><strong>M&amp;E Balances</strong><span>Process fundamentals</span></div>
+          <div><strong>HAZOP</strong><span>Process safety</span></div>
+          <div><strong>TEA</strong><span>Feasibility thinking</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="about-quote reveal">
+        <span class="quote-mark">“</span>
+        <blockquote>Curious about <em>why</em> a process behaves the way it does — and what could make it safer, simpler or better.</blockquote>
+      </div>
+      <div class="about-copy reveal reveal-delay-1">
+        <p class="section-code">06 / ABOUT</p>
+        <p>I am an early-career Chemical Engineering graduate from Khalifa University, building toward process engineering roles across petrochemicals, energy, manufacturing and sustainability. I am still developing — but I already know the kind of engineer I want to become: technically grounded, safety-conscious, practical, curious and willing to keep learning.</p>
+        <a class="text-link" href="assets/cv.pdf" target="_blank" rel="noopener">Read the concise version — my CV ↗</a>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="contact-grid reveal">
+        <div>
+          <p class="section-code">07 / CONTACT</p>
+          <h2>Have an engineering opportunity in mind?</h2>
+          <p>I am open to early-career opportunities in process engineering, production, operations, energy, petrochemicals and related engineering roles.</p>
+        </div>
+        <div class="contact-actions">
+          <a class="button button-primary button-large" href="mailto:mi.yasirah@hotmail.com">Email me <span>→</span></a>
+          <a class="button button-ghost button-large" href="https://www.linkedin.com/in/yasirah-ilyas" target="_blank" rel="noopener">LinkedIn ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>YASIRAH MOHAMED ILYAS</span>
+    <span>CHEMICAL ENGINEERING · ABU DHABI</span>
+    <span>© <span data-year></span></span>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
